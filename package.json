@@ -8,9 +8,18 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "husky": {
+    "hooks": {
+      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
+      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
+      "post-applypatch": "echo \"[Husky] post-applypatch\"",
+      "pre-commit": "echo \"[Husky] pre-commit\""
+    }
+  },
   "dependencies": {
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.2",
+    "husky": "^8.0.1",
     "next": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
