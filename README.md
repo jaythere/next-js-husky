@@ -57,3 +57,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ```
 
 Restart app to make it work
+
+`yarn add prettier -D`
+
+# Scripts lint
+
+`"lint": "prettier --check ."`
